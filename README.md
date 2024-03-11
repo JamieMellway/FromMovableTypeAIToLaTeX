@@ -30,7 +30,7 @@ Add these to your Environment Path if the installers have not:
 6. Rename output.tex to the title of your project.
 7. Delete Everything up to the Preface lines.  Paste in NewHeader.tex to replace it.
 8. Edit the title, author, and publisher in the copyright.
-9. Do a search (ctrl-f) for "\section{Chapter ".  Delete that and the chapter number and period.  Replace that with "\chapter{"
+9. Do a search (ctrl-f) for "\section{Chapter ".  Delete that and the chapter number and colon.  Replace that with "\chapter{"
 10. Hit F3 to skip to the next one.  Replace all ten chapters.
 11. Search for "==".  Delete both the starting "==" and ending "==".  Highlight the middle text and hit ctrl-b to add \textbf{  } around the text.
 12. Search for double quote.  Replace the starting double quotes with `` and ending double quotes with ''.
