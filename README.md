@@ -31,15 +31,16 @@ Add these to your Environment Path if the installers have not:
 7. Delete Everything up to the Preface lines.  Paste in NewHeader.tex to replace it.
 8. Edit the title, author, and publisher in the copyright.
 9. Do a search (ctrl-f) for "\section{Chapter ".  Delete that and the chapter number and colon.  Replace that with "\chapter{"
-10. Hit F3 to skip to the next one.  Replace all ten chapters.
-11. Search for "==".  Delete both the starting "==" and ending "==".  Highlight the middle text and hit ctrl-b to add \textbf{  } around the text.
-12. Search for "\#\#\#".  Highlight the text and hit ctrl-b to add \textbf{  } around the text.
-13. Search for double quote.  Replace the starting double quotes with `` and ending double quotes with ''.
-14. Hit F5 to generate PDF.  Note the number of pages in the PDF.
-15. Run CreateEpub.bat to generate the epub.
-16. Go to https://kdp.amazon.com/cover-calculator to generate template using the page count of the PDF.
-17. Open the template in Inkscape and create you cover.  Save to .svg.  Make the template layer invisible and export to PDF when done.
-18. Open the "Ebook Cover.svg" in Inkscape.  Copy the cover from the the other .svg file.  Use the resize arrows while holding down ctrl to resize with the same proportions.  Export to .jpg when done.
-19. Upload to KDP!
+10. Do a search for "\section{Epilogue".  Replace that with "\chapter*{" and after that line add \addcontentsline{toc}{chapter}{Epilogue}
+11. Hit F3 to skip to the next one.  Replace all ten chapters.
+12. Search for "==".  Delete both the starting "==" and ending "==".  Highlight the middle text and hit ctrl-b to add \textbf{  } around the text.
+13. Search for "\#\#\#".  Highlight the text and hit ctrl-b to add \textbf{  } around the text.
+14. Search for double quote.  Replace the starting double quotes with `` and ending double quotes with ''.
+15. Hit F5 to generate PDF.  Note the number of pages in the PDF.
+16. Run CreateEpub.bat to generate the epub.
+17. Go to https://kdp.amazon.com/cover-calculator to generate template using the page count of the PDF.
+18. Open the template in Inkscape and create you cover.  Save to .svg.  Make the template layer invisible and export to PDF when done.
+19. Open the "Ebook Cover.svg" in Inkscape.  Copy the cover from the the other .svg file.  Use the resize arrows while holding down ctrl to resize with the same proportions.  Export to .jpg when done.
+20. Upload to KDP!
 
 
